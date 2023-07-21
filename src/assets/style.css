@@ -1,0 +1,246 @@
+
+
+.card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  .container {
+    color: rgb(76, 89, 104);
+    width: 425px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2rem;
+    background-color: rgb(241, 244, 247);
+  }
+  
+  .headers {
+    display: flex;
+    font-size: 2rem;
+    color: rgb(76, 89, 104);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.75rem 2.25rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  .body-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.625rem;
+    background-color: rgb(241, 244, 247);
+  }
+  
+  .currency {
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .coins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 15px;
+    font-weight: bold;
+  }
+  
+  .btc {
+    font-size: 2.25rem;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .convert {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.125rem;
+    margin-bottom: 1.875rem;
+    color: rgb(174, 184, 196);
+    font-weight: bold;
+  }
+  
+  .arrow {
+    padding-bottom: 31px;
+  }
+  
+  .days {
+    overflow: hidden;
+    opacity: 1;
+    height: 3.5rem;
+    margin-top: 1rem;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  .year {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(174, 184, 196);
+    font-weight: bold;
+  }
+  
+  .year-button {
+    border-radius: 50px;
+  }
+  
+  .transaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+    color: rgb(174, 184, 196);
+    font-weight: bold;
+  }
+  
+  .buy-btc {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .buy-coins-btc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .footer-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 3.25rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .bitcon {
+    color: rgb(255, 143, 23);
+  }
+  
+  .dollar {
+    color: rgb(23, 200, 252);
+  }
+  
+  .dollar-right {
+    color: rgb(251, 35, 162);
+  }
+  
+  .right-dot {
+    color: rgb(30, 192, 112);
+  }
+  
+  .left-dot {
+    color: rgb(238, 34, 93);
+  }
+  
+  .buy-dollars {
+    font-weight: bold;
+  }
+  
+  .left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 124vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: rgb(241, 244, 247);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 18rem;
+    height: 200px;
+    overflow: auto;
+    position: absolute;
+    top: 7rem;
+    right: 1rem;
+    left: 40rem;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 1.875rem;
+    cursor: pointer;
+    font-size: 13px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .crypto-chart-container {
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  
+  .recharts-wrapper {
+    margin: 0 auto;
+  }
+  
+  .range{
+    cursor: pointer;
+  }
+
+  button {
+    border-radius: 27px;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.875rem;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgb(238, 34, 93);
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
